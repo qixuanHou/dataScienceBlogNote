@@ -8,6 +8,6 @@
 * personalized car insurance
 * image analysis in claim assessment
 * sentiment and personality analysis
-
+![Alt Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/ai_insurance.png)
 
 <small>lnik https://www.datasciencecentral.com/profiles/blogs/ai-in-insurance-business-process-automation-brings-digital</small>
