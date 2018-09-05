@@ -1,5 +1,6 @@
 ### What is Bitcoin?
 ```Bitcoin is used to Encrypt the currency into the digital format and which is highly secured.```
+
 Questions - 
 * what does it mean to encrypt the currency?
 * who controls how much bitcoins should be distributed?
