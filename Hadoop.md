@@ -21,5 +21,12 @@ name node -> data node
 * name node - maintains and manages data node, records metadata, inforamtion about data blocks
 * data node - stores actual data
 
+#### what is MapReduce
+* MapReduce is a programming framework that allows us to perform distributed and parallel processing on large data sets in a distributed environment
+* Map & reduce
+  * map tasks - splitting(input is divided into fixed-size chunks, it produces the output in (key, value) pair), mapping (each input split is passed to a mapping function which divides the split into list(key value))
+  * reduce tasks - shuffling & sorting (consumes output of the mapping phase, main task is to club together the relevant record in sorting manner from the output of mapping phase, the output is <strong>Key, List(value)</strong>), reducing(output from shuffling and sorting are aggregated and returns single (key, value), the final output value is then written in the output file of HDFS)
+  
+ 
  https://www.datasciencecentral.com/profiles/blogs/hadoop-for-beginners
  https://www.datasciencecentral.com/profiles/blogs/hadoop-for-beginners-part-2
