@@ -35,3 +35,4 @@ regressor.add(Dense(units = 1))
 regressor.compile(optimizer = 'adam',loss = 'mean_squared_error')
 regressor.fit(x_train,y_train,epochs = 100, batch_size = 32)
 ```
+![Alt Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/googlestock.png)
