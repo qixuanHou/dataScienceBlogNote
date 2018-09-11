@@ -38,8 +38,7 @@
 * O_t - grid of satellite images
 * regression format f(O_t_ij) = P_t_ij
 * classification format g(O_t_ij) = C_t_ij
-
-
+![Alt Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/satellite.png)
 
 
 
