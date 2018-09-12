@@ -33,9 +33,8 @@ In 2014 alone, there were 494,000 structure fires in the United States, causing 
   * The nearest precedent for our research with AFRD is the recent work from the New York Mayor’s Office of Data An- alytics (MODA) with the Fire Department of New York (FDNY) to build a “Risk-Based Inspection System” (RBIS).
 
 ### DATA DESCRIPTION
-
 #### Data Sources
-* 2,543 historical fire incidents
+* historical fire incidents
 * fire inspection
 * structural information about commercial properties 
 * parcel data from Atlanta’s Office of Buildings provides parcel-level in-formation, 
@@ -43,8 +42,42 @@ In 2014 alone, there were 494,000 structure fires in the United States, causing 
 * Google Places API 
 * State of Georgia Government
 * socioeconomic and demographic data from the U.S. Census Bureau
-* liquor license and 2014 crime data from the Atlanta Police Depart- ment, and Certificate of Occupancy (CO) data from the At- lanta Office of Buildings. All of these data sources con- tributed to discovering new inspections and developing our predictive model for commercial fire risk estimation.
+* liquor license 
+* 2014 crime data  
+* Certificate of Occupancy (CO) data 
+#### Data Joint
+We joined the datasets together based primarily on spatial location information. 
 
+### IDENTIFYING NEW PROPERTIES NEEDING INSPECTION
+* we first needed to understand what types of properties currently required fire inspections according to the Fire Code, 
+* we then identified other similar properties.
+the most challenging part was to determine how buildings with different names (or IDs, or address formats) in various datasets actually refer to the same building. 
 
+### PREDICTIVE MODEL OF FIRE RISK
+#### Data Cleaning
+* For each property with missing data for a particular feature, we replaced missing values with 0 when appropriate. 
+* We also included a binary feature indicating whether each property had missing data for each feature. 
+* We used log transformation for variables with a large numerical range, such as the “for sale” price of properties.
+#### Feature selection
+* We manually examined each variable to de- termine whether it may be relevant to fire prediction, and ex- cluded many obviously non-predictive variables in this initial process (such as the phone number of the property owner, or property ID numbers). 
+* We then used <strong>forward and backward feature selection processes</strong> to determine each variable’s contribution to the model, and removed the variables that did not contribute to higher predictive accuracy. 
+Our final model includes only 58 variables. We then expanded categorical variables into binary features. For example, the zip code variable was expanded into 37 binary features, and for each property only one zip code was coded as 1 (all zip codes were designated as 0 if a property’s zip code data was missing). After expansion, we had 1127 features in total.
+#### evaluation of the models
+* Goal - A fire risk model would ideally be tested in practice by predicting which properties would have a fire inci- dent in the following year
+* method - We chose to validate our model using a time-partitioned approach. 
+Note that training and testing sets include the same set of properties, but different labels correspond to fires in different periods of time. This is a valid approach because we didn’t use information that we would only know after the training period, i.e., fires in 2015.
+#### Further Discussion of the Models
+* different meaning of labels
+* whether the performance of predicting fires is consistent in different testing time peri- ods.
+* it is helpful for us and for AFRD to know which features are the most effective predictors.
+#### Assignment of Risk Scores
 
+### IMPACT ON AFRD AND ATLANTA
+#### Previous Inspection Process
+#### Technology Transfer to AFRD
+![Alt Text]()
+#### Impact on AFRD Processes
+
+### Challenges
 http://firebird.gatech.edu/KDD16_Firebird.pdf
+
