@@ -75,9 +75,11 @@ Note that training and testing sets include the same set of properties, but diff
 ### IMPACT ON AFRD AND ATLANTA
 #### Previous Inspection Process
 #### Technology Transfer to AFRD
-![Alt Text]()
+![Alt Text](https://github.com/qixuanHou/dataScienceBlogNote/tree/master/img/firebird.png)
 #### Impact on AFRD Processes
 
 ### Challenges
+
+### Conclusions
 http://firebird.gatech.edu/KDD16_Firebird.pdf
 
