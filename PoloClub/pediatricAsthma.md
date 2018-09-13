@@ -14,7 +14,5 @@ Minsuk Kahng3, Duen Horng (Polo) Chau3, Acar Tamersoy3, Daniel A. Hirsh5,6, Nico
 ### Method
 #### Data
 #### Design Requirements
-
-
 ### SYSTEM IMPLEMENTATION
 ### RESULTS
