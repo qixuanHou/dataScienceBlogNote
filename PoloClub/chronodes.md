@@ -33,8 +33,8 @@ Using these target questions as our point of departure, we identified existing t
 
 ### CHRONODES OVERVIEW
 #### Description of the User Interface 
-The Event Orchestra, fixed to the bottom of the screen (Figure 2B), lists a subset of participants represented by our dataset and displays the series of events that these participants perform over the course of 24-hour days.
-The Sequence Stage is the primary area of user interaction and accounts for the largest amount of space in the Chronodes interface (Figure 2A). It is within the Sequence Stage that the user selects, manipulates, and compares frequent event sequences. To demonstrate how the user performs these operations, we will describe Chronodes’s functionality through a use case scenario.
+* The Event Orchestra, fixed to the bottom of the screen (Figure 2B), lists a subset of participants represented by our dataset and displays the series of events that these participants perform over the course of 24-hour days.
+* The Sequence Stage is the primary area of user interaction and accounts for the largest amount of space in the Chronodes interface (Figure 2A). It is within the Sequence Stage that the user selects, manipulates, and compares frequent event sequences. To demonstrate how the user performs these operations, we will describe Chronodes’s functionality through a use case scenario.
 
 
 
