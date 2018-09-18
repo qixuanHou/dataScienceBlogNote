@@ -37,5 +37,16 @@ Using these target questions as our point of departure, we identified existing t
 * The Sequence Stage is the primary area of user interaction and accounts for the largest amount of space in the Chronodes interface (Figure 2A). It is within the Sequence Stage that the user selects, manipulates, and compares frequent event sequences. To demonstrate how the user performs these operations, we will describe Chronodes’s functionality through a use case scenario.
 #### Use Case Walk-Through
 
+### CHRONODES CONTRIBUTIONS
+#### Visualizing Frequent Sequences for Interaction
+#### Multiple Sequence Alignments
+#### Comparing and Cloning Cohorts
+
+### DERIVING INTERACTIVE EVENT SEQUENCES
+#### Deriving Events From mHealth Sensor Data
+#### Deriving Frequent Sequences From Events
+#### Interacting With Frequent Sequences
+#### System Implementation
+served by a Python Web server (web.py4)
 
 https://www.cc.gatech.edu/~dchau/papers/17-tiis-chronodes.pdf
