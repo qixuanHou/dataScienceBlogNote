@@ -18,17 +18,18 @@ An alternate approach to understanding the trends of aggregated mHealth data str
 Building machine learning and pattern matching algorithms into interactive visualizations presents promising opportunities for enhancing human pattern-finding abilities. Hochheiser and Shneiderman [18] and Buono et al. [7] demonstrated how users could select specific patterns in quantitative data streams and see where else they were found. 
 
 ### DATASET, RESEARCH QUESTIONS, AND DESIGN MOTIVATIONS
-Q1 What are the events preceding and proceeding each instance of smoking lapse [5]?
-Q2 What habitual events or cues (e.g., smoking every day after lunch) are correlated to smok-
+* Q1 What are the events preceding and proceeding each instance of smoking lapse [5]?
+* Q2 What habitual events or cues (e.g., smoking every day after lunch) are correlated to smok-
 ing lapse [25]?
-Q3 What are the correlations between smoking lapse and other physiological factors, such as
+* Q3 What are the correlations between smoking lapse and other physiological factors, such as
 stress [2, 10]?
-Q4 What event patterns are specific to individual participants, and otherwise universal to all
+* Q4 What event patterns are specific to individual participants, and otherwise universal to all
 participants [26]?
+
 Using these target questions as our point of departure, we identified existing techniques in visual analytics and mHealth data analysis (as elaborated in Section 2) that would assist in answering these questions with respect to the AutoSense data. 
-event alignment
-frequent sequence mining
-recurring event sequences operates 
+* event alignment
+* frequent sequence mining
+* recurring event sequences operates 
 
 ### CHRONODES OVERVIEW
 #### Description of the User Interface 
