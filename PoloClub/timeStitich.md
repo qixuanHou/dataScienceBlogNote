@@ -1,5 +1,5 @@
 ##  TimeStitch: Interactive Multi-focus Cohort Discovery and Comparison
-
+[Alt Text]! (dataScienceBlogNote/img/timeStitch.png)
 https://www.cc.gatech.edu/~dchau/papers/15-vis-timestitch.pdf
 ### ABSTRACT
 TimeStitch extracts common sequences of events performed by abstinent smokers from large amounts of mobile health sensor data, and offers a suite of interactive and visualization techniques to enable cohort discovery, construction, and comparison, using extracted sequences as interactive elements.
