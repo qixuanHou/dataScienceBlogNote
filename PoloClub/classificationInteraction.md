@@ -14,6 +14,7 @@ To create trust, both researchers and the gen- eral public have to understand wh
 #### Resilient Classification
 ![Atl Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/baseball.png)
 
+
 video demo https:// youtu.be/llub5GcOF6w.
 open source code https://github.com/poloclub/ 
 https://arxiv.org/pdf/1806.05660.pdf
