@@ -10,9 +10,9 @@ To create trust, both researchers and the gen- eral public have to understand wh
 
 ### Usage Examples
 #### Misclassification
-![Atl Text]()
+![Atl Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/dock.png)
 #### Resilient Classification
-![Atl Text]()
+![Atl Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/baseball.png)
 
 video demo https:// youtu.be/llub5GcOF6w.
 open source code https://github.com/poloclub/ 
