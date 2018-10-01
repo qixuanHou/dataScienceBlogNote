@@ -31,6 +31,6 @@ def plot_data_points(longitude,latitude,data_frame,focus_point) :
 plot_data_points('pickup_longitude', 'pickup_latitude',nyc_data,"passenger_count")
 ```
 Great visualizations, heat_map
-![Alt_Text]()
+![Alt_Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/nyc_heatmap.png)
 
 https://www.kaggle.com/pavanraj159/nyc-taxi-fare-time-series
