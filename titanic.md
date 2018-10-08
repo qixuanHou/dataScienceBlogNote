@@ -1,5 +1,5 @@
 * the way to display three dimonsion information by multiple bar charts
-![Alt_Text](multiDimensionBarChart.png)
+![Alt_Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/multiDimensionBarChart.png)
 
 * logisticRegression
 ```Python
@@ -12,7 +12,7 @@ coeff_df.columns = ['Feature']
 coeff_df["Correlation"] = pd.Series(logr.coef_[0])
 coeff_df.sort_values(by='Correlation', ascending=False)
 ```
-![Alt_Text](titanicLogistic.png)
+![Alt_Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/titanicLogistic.png)
 
 ```python
 rfr = RandomForestClassifier(n_estimators=1000, random_state=10, verbose=0)
@@ -27,6 +27,6 @@ importances = pd.DataFrame(fi, columns = ['importance'])
 importances['feature'] = cols
 importances.sort_values(by='importance', ascending=False)
 ```
-![Alt_Text](titanicRandomF.png)
+![Alt_Text](https://github.com/qixuanHou/dataScienceBlogNote/blob/master/img/titanicRandomF.png)
 
 https://www.kaggle.com/rcasellas/titanic-kernel-random-forest-classifier
