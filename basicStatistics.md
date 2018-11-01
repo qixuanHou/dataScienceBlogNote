@@ -33,8 +33,18 @@ Adjusted R2 will always be less than or equal to R2. You only need R2 when worki
 https://www.statisticshowto.datasciencecentral.com/adjusted-r2/
 
 ### Akaike’s Information Criterion
-
+Akaike’s information criterion (AIC) compares the quality of a set of statistical models to each other. 
 https://www.statisticshowto.datasciencecentral.com/akaikes-information-criterion/
+
+### analysis of variance 
+https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/anova/
+
+
+
+
+### ANCOVA: Analysis of Covariance
+
+https://www.statisticshowto.datasciencecentral.com/ancova/
 
 https://www.datasciencecentral.com/profiles/blogs/29-statistical-concepts-explained-in-simple-english-part-1
 https://www.datasciencecentral.com/profiles/blogs/25-statistical-concepts-explained-in-simple-english-part-2
